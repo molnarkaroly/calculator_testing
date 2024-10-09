@@ -17,8 +17,7 @@ def test_mult():
     assert mult(3, 3) == 9
     
 def test_div():
-    assert div(8, 8) == 1
+    assert div(8, 1) == 8
     assert div(9, 3) == 3
     assert div(10, 5) == 2
-    
-    
+    assert div(0, 0) == "error"
